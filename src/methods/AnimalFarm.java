@@ -24,14 +24,20 @@ AnimalFarm() {
 	if (animal.equalsIgnoreCase("cow")){ playMoo();}
 	 if (animal.equalsIgnoreCase("duck")) { playQuack();}
 	 if (animal.equalsIgnoreCase("wolf")) { playWoof();}
-		
-	
+	 if (animal.equalsIgnoreCase("cat")) { playMeow();}
+	 if (animal.equalsIgnoreCase("llama")) { playLlama();}
  
 
 
 }
 
+void playMeow() {
+	playNoise(meowFile);
+}
 
+void playLlama() {
+	playNoise(llamaFile);
+}
 
 
 void playMoo() {
